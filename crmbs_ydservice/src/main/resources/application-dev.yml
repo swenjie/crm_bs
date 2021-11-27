@@ -1,0 +1,20 @@
+server:
+  port: 8088
+spring:
+  redis:
+    host: 47.93.21.164
+    port: 6379
+    password: 123456
+    timeout: 5000
+  datasource:
+    password: 7CXznaGGxCA3Yipe
+    username: admin
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.93.21.164:3306/crmbs?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+logging:
+  level:
+    com: debug
+
+
+
+

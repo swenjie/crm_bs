@@ -1,0 +1,13 @@
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package:
+spring:
+    profiles:
+      active: dev
+    application:
+      name: crmbs_ydservice # 盈达后台管理服务
+
+
+
+
